@@ -13,11 +13,11 @@ import { theme } from "../constants";
 
 const screen = createStackNavigator({
     Welcome,
-    Login,
-    Explore,
-    Browse,
-    Product,
-    Settings,
+    // Login,
+    // Explore,
+    // Browse,
+    // Product,
+    // Settings,
 }, {
     defaultNavigationOptions: {
         headerStyle: {},
@@ -28,4 +28,4 @@ const screen = createStackNavigator({
    }
 });
 
-export default createAppContainer(screen)
+export default createAppContainer(screen);
